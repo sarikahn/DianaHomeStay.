@@ -1,0 +1,301 @@
+/* General Styling */
+body{
+    font-family: Arial, sans-serif;
+    margin:0;
+    padding:0;
+    background-color: lightblue;
+}
+
+
+nav ul {
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+    background: url('https://via.placeholder.com/1600x600') no-repeat center center/cover;
+    height: 60vh;
+    text-align: center;
+    color: maroon;
+    padding-top: 100px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+/* About Section */
+.about {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.about h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.about p {
+    font-size: 1.2em;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Services Section */
+.services {
+    background-color: lightblue;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.service-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    max-width: 300px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.service h3 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+/* Gallery Section */
+.gallery {
+    padding: 30px 10px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.gallery-images img {
+    width: 20%;
+    margin: 0 10px;
+    border-radius: 10px;
+}
+
+/* Contact Section */
+.contact {
+    background-color: #333;
+    color: white;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.contact form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.contact label {
+    font-size: 1.1em;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.contact input, .contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.contact button {
+    background-color: #f1a1a1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact button:hover {
+    background-color: #e18f8f;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.map {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.map iframe {
+    border: 0;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    height: 400px;
+}
+
+.map-link {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.map-link a {
+    font-size: 1.2em;
+    color: #f1a1a1;
+    text-decoration: none;
+}
+
+.map-link a:hover {
+    text-decoration: underline;
+}
+/* Facilities Section */
+.facilities {
+    padding: 50px 20px;
+    background-color: lightblue;
+    text-align: center;
+}
+
+.facilities h2 {
+    font-size: 2.5em;
+    margin-bottom: 30px;
+}
+
+.facilities-list {
+    list-style-type: none;
+    padding: 0;
+    font-size: 1.2em;
+}
+
+.facilities-list li {
+    margin-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.facilities-list li:before {
+    content: "\2022"; /* Unicode for bullet point */
+    font-size: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f1a1a1;
+}
+
+.facilities-list li {
+    padding-left: 25px; /* Leave space for the bullet point */
+}
+
+.facilities-list li:hover {
+    color: #f1a1a1;
+    transition: 0.3s;
+}
+
+
+/* Facilities Section with Icons */
+.facilities-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 0;
+    list-style: none;
+}
+
+.facility-item {
+    width: 250px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s;
+}
+
+.facility-item i {
+    font-size: 2em;
+    color: #f1a1a1;
+    margin-bottom: 15px;
+}
+
+.facility-item p {
+    font-size: 1.1em;
+    color: #333;
+}
+
+.facility-item:hover {
+    transform: translateY(-10px);
+}
+
+.facility-item:hover i {
+    color: #f1a1a1;
+}
+
+
+/* Style for the heading */
+.welcome-content h1 {
+    font-size: 3em; /* Heading size */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+#welcome {
+    background-image: url('udupi.jpeg.jpg'); /* Path to your background image */
+    background-size: cover; /* Ensures the image covers the entire section */
+    background-position: center center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    padding: 230px 230px; /* Adds padding to the top and bottom of the section for better spacing */
+    color: black; /* Ensures text is visible on top of the image */
+    text-align: center; /* Centers the content horizontally */
+  }
+  
+  #welcome h1 {
+    font-size: 4em; /* Adjusts the size of the heading */
+    margin: 0;
+  }
+  
+  #welcome p {
+    font-size: 1.5em; /* Adjusts the size of the paragraph text */
+    margin-top: 10px;
+  }
+  

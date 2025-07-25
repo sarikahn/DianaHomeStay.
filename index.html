@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diana Home Stay</title>
+    <link rel="stylesheet" href="styles.css"> <!--link to your css file</head-->
+    <style>
+    header {
+        background-color: #000; /* Black background for the header */
+        color: #fff; /* White text for the header */
+        padding: 10px 0; /* Adds padding for space */
+    }
+
+    header nav ul {
+        list-style-type: none; /* Removes bullet points from list */
+        margin: 0;
+        padding: 0;
+        text-align: center; /* Centers the list items */
+    }
+
+    header nav ul li {
+        display: inline; /* Inline list items for horizontal display */
+        margin-right: 20px; /* Space between list items */
+    }
+
+    header nav ul li a {
+        color: white; /* White links */
+        text-decoration: none; /* Removes underline */
+        font-size: 16px; /* Optional: font size */
+    }
+
+    header nav ul li a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+
+         /* Welcome Section Styles */
+         #welcome {
+            background-image: url('udupi.jpeg.jpg'); /* Path to your background image */
+            background-size: cover; /* Ensures the image covers the entire section */
+            background-position: center center; /* Centers the image */
+            background-repeat: no-repeat; /* Prevents the image from repeating */
+            padding: 230px 230px; /* Adds padding to the top and bottom of the section for better spacing */
+            color: black; /* Ensures text is visible on top of the image */
+            text-align: center; /* Centers the content horizontally */
+        }
+
+        #welcome h1 {
+            font-size: 4em; /* Adjusts the size of the heading */
+            margin: 0;
+        }
+
+        #welcome p {
+            font-size: 1.5em; /* Adjusts the size of the paragraph text */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+</style>
+</head>
+<body>
+
+  <!--Welcome Section --->
+<section id="welcome" class="welcome">
+   <div class="welcome-content">
+<h1>Welcome To Diana Home Stay</h1>
+    <p>Your home away from home. Experience comfort, relaxation, and luxury.</p>
+  </div> 
+</section>
+
+    <!-- Navbar -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- About Us Section -->
+    <section id="about" class="about">
+        <h2>About Diana Home Stay</h2>
+        <p>At Diana Home Stay, we offer a cozy, comfortable, and friendly environment for you to enjoy your stay. Whether you're here for a vacation or a business trip, we ensure a relaxing experience.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-list">
+            <div class="service">
+                <h3>Comfortable Rooms</h3>
+                <p>Fully equipped rooms with modern amenities.</p>
+            </div>
+            <div class="service">
+                <h3>Free Wi-Fi</h3>
+                <p>Stay connected with high-speed internet throughout the property.</p>
+            </div>
+            <div class="service">
+                <h3>Delicious Meals</h3>
+                <p>Enjoy Delicious food prepared for you.</p>
+            </div>
+        </div>
+    </section>
+
+<!-- New Facilities Section with Icons -->
+<section id="facilities" class="facilities">
+    <h2>Facilities Available</h2>
+    <div class="facilities-list">
+        <div class="facility-item">
+            <i class="fas fa-parking"></i>
+            <p>Ample parking space</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-shower"></i>
+            <p>24 Hours Hot Water</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-utensils"></i>
+            <p>Fully Furnished Rooms with Kitchen and Water Purifier</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-wifi"></i>
+            <p>High-Speed Wi-Fi</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-bolt"></i>
+            <p>Electricity Backup with Inverter</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-snowflake"></i>
+            <p>All Rooms are Air Conditioned (AC)</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-utensils"></i>
+            <p>Authentic Udupi Food Available on Demand</p>
+        </div>
+        <div class="facility-item">
+            <i class="fas fa-car"></i>
+            <p>Car with Driver or Without Driver, and Two-Wheeler Rentals Available</p>
+        </div>
+    </div>
+</section>
+<style>
+     /* Gallery Section */
+     .gallery {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .gallery-images {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 50px;
+        }
+
+        .gallery-images img {
+            width: 300px;
+            height: 200px;
+            object-fit: cover;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .gallery-images img:hover {
+            transform: scale(1.05);
+        }
+
+        /* Lightbox Modal */
+        .lightbox-modal {
+            display: none; /* Hidden by default */
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 200%;
+            background-color: rgba(0, 0, 0, 0.7); /* Dark background */
+            z-index: 1000; /* Sits on top of other content */
+            justify-content: center;
+            align-items: center;
+        }
+
+        .lightbox-modal img {
+            max-width: 100%;
+            max-height: 200%;
+        }
+
+        .close-btn {
+            position: absolute;
+            top: 30px;
+            right: 30px;
+            color: #fff;
+            font-size: 30px;
+            cursor: pointer;
+        }
+    </style>   
+
+
+    <!---- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <h2>Gallery</h2>
+        <div class="gallery-images">
+            <img src="UDUPI1.JPEG.jpg" alt="Room 1">
+            <img src="UDUPI2.JPEG.JPG" alt="Room 2">
+            <img src="UDUPI4.JPEG.JPG" alt="Room 2">
+            <img src="UDUPI5.JPEG.JPG" alt="Room 2">
+            <img src="UDUPI6.JPEG.JPG" alt="Room 2">
+            <img src="UDUPI7.JPEG.JPG" alt="Room 2">
+            <img src="UDUPI8.JPEG.jpg" alt="Room 2">
+            <img src="UDUPI9.JPEG.jpg" alt="Room 2">
+    </div>
+    </section>
+    <!-- Lightbox Modal -->
+  <div id="lightboxModal" class="lightbox-modal">
+    <span class="close-btn" onclick="closeModal()">&times;</span>
+    <img id="lightboxImage" src="" alt="Larger view of image">
+</div>
+
+<script>
+    // Function to open the modal
+    function openModal(imgElement) {
+        var modal = document.getElementById('lightboxModal');
+        var modalImg = document.getElementById('lightboxImage');
+        modal.style.display = 'flex'; //Show the modal
+        modalImg.src = imgElement.src; // Set the source of the large image to the clicked image
+    }
+
+    // Function to close the modal
+    function closeModal() {
+        var modal = document.getElementById('lightboxModal');
+        modal.style.display = 'none'; // Hide the modal
+    }
+</script>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form" action="#">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit" id="submit-button">Send Message</button>
+        </form>
+    </section>
+
+    <!--Google Maps link-->
+    <div class="map-link">
+        <h3>Find Us Here:</h3>
+        <iframe src="https://www.google.com/maps/place/Udupi,+Karnataka/" width="00" height="00" style="border:0;" allowfullscreen=""></iframe>"
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Diana Home Stay. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
