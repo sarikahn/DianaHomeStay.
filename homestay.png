@@ -1,4 +1,4 @@
-git add images/homestay.png
+git add homestay.png
 git commit -m "Added homestay image"
 git push origin main
 
