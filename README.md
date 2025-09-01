@@ -16,7 +16,7 @@ A fully responsive and user-friendly website developed using HTML, CSS, PHP, and
 <img width="1899" height="854" alt="Screenshot 2025-08-25 123635" src="https://github.com/user-attachments/assets/6700d6f3-5d6f-4d63-b58b-cdee41fd48df" />
 
 
-## Features ✨
+## Features
 * Browsable homepage featuring homestay overview and visuals
 * Responsive room gallery detailing available options and amenities
 * Interactive booking/inquiry form for visitors
@@ -90,4 +90,5 @@ Database:
 MySQL
 
 ## Author
+Sarika HN
 Full-stack developer passionate about building  user-focused web applications.
