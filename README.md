@@ -9,4 +9,4 @@ Diana Home Stay is a fully responsive and user-friendly website designed to show
 
 
 
-Thank you for exploring the Diana Home Stay Repo! Happy coding! 🚀
+                                Thank you for exploring the Diana Home Stay Repo! Happy coding! 🚀
