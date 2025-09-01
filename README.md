@@ -1,83 +1,26 @@
-# RecruitX - Intelligent Recruitment Platform
-
-A modern recruitment platform similar to LinkedIn, powered by AI-driven resume screening. The platform connects recruiters with candidates while providing intelligent application screening using LangChain and GROQ API for ATS (Applicant Tracking System) scoring.
+# Diana Home Stay
+A fully responsive and user-friendly website developed using HTML, CSS, PHP, and MySQL, designed to showcase a homestay’s services, rooms, and facilities. Visitors can explore room options, submit booking or inquiry forms, and interact with a simple yet effective system.
 
 ## Features
+   -Browsable homepage featuring homestay overview and visuals.
+   -Responsive room gallery detailing available options and amenities.
+   -Interactive booking/inquiry form for visitors.
+   -Secure PHP backend for form submissions and data handling
+   -MySQL database to store booking requests and inquiries.
 
-- **Multi-Role System:**
-  - Admin: Full access to manage all jobs, users, and platform settings
-  - Recruiter: Create, edit, and manage their job postings
-  - Candidate: Browse and apply for jobs, track application status
-  
-- **Job Management:**
-  - Recruiters can post, edit, and delete their job listings
-  - Rich job description editor with template support
-  - Admin has override access to all job postings
-  
-- **Smart Application Processing:**
-  - Automated ATS scoring using LangChain & GROQ API
-  - Resume-to-Job Description matching
-  - Minimum 80% match score required for application acceptance
-  
-- **Recruiter Dashboard:**
-  - View all applications for posted jobs
-  - Candidate details and resume access
-  - Application status management (Shortlist/Reject)
-  - ATS score visualization
-  
-- **Candidate Dashboard:**
-  - Track application status (Pending/Shortlisted/Rejected)
-  - View ATS scores for applications
-  - Application history management
-  
-- **AI-Powered Features:**
-  - Automated resume parsing
-  - Job description matching
-  - Real-time ATS scoring feedback
-
-## Application Flow
-
-1. **For Recruiters:**
-   - Post new job listings with detailed descriptions
-   - Review incoming applications with ATS scores
-   - Shortlist or reject candidates based on qualifications
-   - Manage recruitment pipeline through dashboard
-
-2. **For Candidates:**
-   - Create profile and upload resume
-   - Browse and apply for suitable positions
-   - Receive immediate ATS feedback on application
-   - Track application status in personal dashboard
-
-3. **For Admins:**
-   - Platform-wide access and management
-   - Override capabilities for all features
-   - System monitoring and user management
-
-## Technical Features
-
-- **ATS Integration:**
-  ```javascript
-  // Resume processing workflow
-  1. Extract text from resume (PDF/DOC)
-  2. Parse job description requirements
-  3. Use LangChain for text processing
-  4. Calculate match score via GROQ API
-  5. Auto-accept/reject based on 80% threshold
-  ```
 
 ## Screenshots
-
-![Home Screenshot](https://github.com/Rishabh-Dhami/RecruitX/blob/main/screenshorts/Home.png)
-![Job Post Screenshot](https://github.com/Rishabh-Dhami/RecruitX/blob/main/screenshorts/01-post-a-job.png)
-![Rcruiter Dashboard Screenshot](https://github.com/Rishabh-Dhami/RecruitX/blob/main/screenshorts/dashboard-recruiter.png)
-![All Jobs Screenshot](https://github.com/Rishabh-Dhami/RecruitX/blob/main/screenshorts/all-job-candidate.png)
+<img width="1894" height="788" alt="Screenshot 2025-08-25 122333" src="https://github.com/user-attachments/assets/6990e3e3-b138-4326-9d0b-5758c973aa46" />
+<img width="1894" height="917" alt="Screenshot 2025-08-25 122349" src="https://github.com/user-attachments/assets/fa34e7ca-c5c2-4cbf-a301-31f13fdbfcfd" />
+<img width="1886" height="634" alt="Screenshot 2025-08-25 123603" src="https://github.com/user-attachments/assets/d397c597-c250-42c9-84cc-ee555a41fde9" />
+<img width="1886" height="695" alt="Screenshot 2025-08-25 123617" src="https://github.com/user-attachments/assets/61c1954b-2dc6-4b95-b639-02c516079d44" />
+<img width="1899" height="854" alt="Screenshot 2025-08-25 123635" src="https://github.com/user-attachments/assets/6700d6f3-5d6f-4d63-b58b-cdee41fd48df" />
 
 ## Installation & Setup
 
 1. **Clone Repository**
 ```bash
-git clone https://github.com/Rishabh-Dhami/RecruitX.git
+git clone https://github.com/sarikahn/RecruitX.git
 cd RecruitX
 ```
 
@@ -125,50 +68,19 @@ cd Frontend
 npm run dev
 ```
 
-## Usage Guide
-
-### Candidate Flow
-1. Register/Login as candidate
-2. Browse available jobs
-3. Upload resume & apply for positions
-4. Track application status & ATS scores
-5. View shortlisting/rejection notifications
-
-### Recruiter Flow
-1. Post new job openings
-2. Review applications with ATS scores
-3. Access candidate details & resumes
-4. Shortlist/reject candidates
-5. Manage recruitment pipeline
-
-### Admin Flow
-1. Manage all platform users
-2. Override job postings/applications
-3. Access system analytics
-4. Configure platform settings
-
 ## Tech Stack
 
 Frontend:
-- React 18
-- Redux Toolkit
-- TailwindCSS
+- HTML
+- CSS
 - JavaScript
 
 Backend:
-- Node.js & Express
-- MongoDB & Mongoose
-- LangChain
-- GROQ API
+- PHP
+- MongoDB
 
-## Security & Performance
-- JWT Authentication
-- Role-based access control
-- Request rate limiting
-- Input validation
-- Error handling
-- Data encryption
+Database:
+MySQL
 
-## Authors
-
-- [@Rishabh-Dhami](https://github.com/Rishabh-Dhami) - Project Lead & Full Stack Developer
+## Author
+Full-stack developer passionate about building  user-focused web applications.
