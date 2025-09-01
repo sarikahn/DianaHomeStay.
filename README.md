@@ -93,4 +93,4 @@ MySQL
 Sarika HN
 Full-stack developer passionate about building  user-focused web applications.
 
-                                      Thank you for exploring the AI Career Forge! Happy coding! 🚀
+                                      Thank you for exploring the Diana Home Stay! Happy coding! 🚀
