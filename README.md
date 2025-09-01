@@ -92,3 +92,5 @@ MySQL
 ## Author
 Sarika HN
 Full-stack developer passionate about building  user-focused web applications.
+
+                                      Thank you for exploring the AI Career Forge! Happy coding! 🚀
